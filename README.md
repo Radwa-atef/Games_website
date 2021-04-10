@@ -1,4 +1,4 @@
-# bookingsite
+# Games_App
 
 ## Project setup
 ```
