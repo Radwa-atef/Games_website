@@ -1,0 +1,3 @@
+{
+    "userBaseurl": "https://dev-remaxbookingapi.azurewebsites.net"
+}

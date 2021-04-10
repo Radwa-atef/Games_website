@@ -1,0 +1,61 @@
+$mainColor: #fdb405;
+$whiteColor: #ffffff;
+$greyColor: #E9E9E9;
+$secMainColor: #be1e2d;
+
+.el-input.is-active .el-input__inner, .el-input__inner:focus
+{
+  border-color:$mainColor !important;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color:$mainColor !important;
+    font-weight: 600;
+    margin-top: -3px;
+    margin-left: 20px;
+    font-size: 17px !important;
+}
+.dropdown-item:hover, .dropdown-item:focus
+{
+    color:$mainColor !important; 
+}
+.el-card
+{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.el-card.is-always-shadow, .el-card.is-hover-shadow:focus, .el-card.is-hover-shadow:hover
+{
+  box-shadow: 0 2px 12px 0 $mainColor;
+}
+.el-form-item__label
+{
+  line-height: 20px !important;
+  text-align: left;
+  font-weight: 700;
+}
+.el-form-item__content
+{
+  line-height: 20px !important; 
+  color: gray; 
+}
+@media only screen and (max-width: 600px){
+.el-form-item__label
+{
+  display: contents;
+}
+  .el-form-item__content
+{
+  display: inline-block;
+  margin-left: 10px !important;
+}
+}
+.el-autocomplete-suggestion li
+{
+  white-space: break-spaces !important;
+}
+.dropdown-menu
+{
+  width: 80%;
+}
